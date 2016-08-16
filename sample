@@ -1,0 +1,16 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int n;
+scanf("%d",&n);
+if(n<1 && n>1)
+{
+if(n>1)
+printf("positive");
+else
+printf("negative");
+}
+else
+printf("zero");
+}
